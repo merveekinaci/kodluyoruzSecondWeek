@@ -14,8 +14,8 @@ public class HarfNotu {
         double donemNotu = donemSonuHesaplama(vizeNot, finalNot);
         System.out.println("Dönem Sonu Notu :" + donemNotu);
 
-
-        System.out.println("Harf Notu :");
+        System.out.println("");
+        System.out.print("Harf Notu :");
         if (donemNotu >= 70 && donemNotu <= 100) {
             System.out.print("AA");
         } else if (donemNotu >= 50 && donemNotu < 70) {
