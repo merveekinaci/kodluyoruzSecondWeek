@@ -16,6 +16,7 @@ public class Kirtasiye {
         }
 
         int toplamMal = 0;
+        
         for(int i = 0; i<malSayisi; i++){
             toplamMal += malSayilari[i];
         }
